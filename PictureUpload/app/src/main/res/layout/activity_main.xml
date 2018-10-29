@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    >
+
+  <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+      
+      <ImageView
+          android:layout_gravity="center_horizontal"
+          android:id="@+id/imageToUpload"
+          android:layout_width="150dp"
+          android:layout_height="150dp" />
+
+      <EditText
+          android:id="@+id/etimageUpload"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" />
+
+      <Button
+          android:id="@+id/bUpload"
+          android:text="Upload Image"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" />
+
+    
+
+      <ImageView
+          android:layout_gravity="center_horizontal"
+          android:id="@+id/downloadedImage"
+          android:layout_width="150dp"
+          android:layout_height="150dp" />
+
+      <EditText
+          android:id="@+id/etimageDownload"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" />
+
+      <Button
+          android:id="@+id/bDownload"
+          android:text="Download Image"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" />
+
+  </LinearLayout>
+
+</ScrollView>
